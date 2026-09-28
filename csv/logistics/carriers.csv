@@ -1,0 +1,7 @@
+CARRIER_ID,CARRIER_NAME,MODE
+CAR-001,Global Freight Lines,Ocean
+CAR-002,SkyBridge Air Cargo,Air
+CAR-003,TransCon Trucking,Road
+CAR-004,RailForward Logistics,Rail
+CAR-005,Meridian Express,Road
+CAR-006,Pacific Container Lines,Ocean

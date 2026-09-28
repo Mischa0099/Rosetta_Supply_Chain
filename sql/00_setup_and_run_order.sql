@@ -1,0 +1,71 @@
+-- =====================================================================
+-- Run order for Phase 1 synthetic data load.
+-- =====================================================================
+-- 1. Create/verify a virtual warehouse (adjust name/size as needed):
+CREATE WAREHOUSE IF NOT EXISTS SUPPLY_CHAIN_WH
+    WAREHOUSE_SIZE = 'XSMALL' AUTO_SUSPEND = 60 AUTO_RESUME = TRUE;
+USE WAREHOUSE SUPPLY_CHAIN_WH;
+
+-- 2. Upload local files to each stage (run from SnowSQL CLI, adjust local paths):
+--    snowsql -q "PUT file://csv/erp_a/*.csv @SUPPLY_CHAIN_PLATFORM.RAW_ERP_A.ERP_A_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/erp_b/*.csv @SUPPLY_CHAIN_PLATFORM.RAW_ERP_B.ERP_B_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/logistics/*.csv @SUPPLY_CHAIN_PLATFORM.RAW_LOGISTICS.LOGISTICS_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/iot/*.csv @SUPPLY_CHAIN_PLATFORM.RAW_IOT.IOT_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://contracts/*.txt @SUPPLY_CHAIN_PLATFORM.RAW_DOCUMENTS.SUPPLIER_CONTRACTS_STAGE AUTO_COMPRESS=FALSE"
+--    snowsql -q "PUT file://docs/contracts_ground_truth.csv @SUPPLY_CHAIN_PLATFORM.RAW_DOCUMENTS.CONTRACTS_GROUND_TRUTH_STAGE"
+--    snowsql -q "PUT file://docs/golden_entity_crosswalk.csv @SUPPLY_CHAIN_PLATFORM.RAW_DOCUMENTS.GOLDEN_CROSSWALK_STAGE"
+--    snowsql -q "PUT file://csv/ontology_core/*.csv @SUPPLY_CHAIN_PLATFORM.ONTOLOGY_CORE.ONTOLOGY_CORE_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/ontology_goods/*.csv @SUPPLY_CHAIN_PLATFORM.ONTOLOGY_GOODS.ONTOLOGY_GOODS_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/ontology_manufacturing/*.csv @SUPPLY_CHAIN_PLATFORM.ONTOLOGY_MANUFACTURING.ONTOLOGY_MFG_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/ontology_services/*.csv @SUPPLY_CHAIN_PLATFORM.ONTOLOGY_SERVICES.ONTOLOGY_SERVICES_STAGE AUTO_COMPRESS=TRUE"
+--    snowsql -q "PUT file://csv/ontology_graph/*.csv @SUPPLY_CHAIN_PLATFORM.ONTOLOGY_GRAPH.ONTOLOGY_GRAPH_STAGE AUTO_COMPRESS=TRUE"
+--    (Or drag-and-drop upload each folder to its stage in Snowsight.)
+--    NOTE: each numbered script below creates its own stage, so you can also
+--    run the script first (creates the empty stage) then upload, then re-run
+--    just the COPY INTO statements at the bottom of that script.
+
+-- 3. Run these scripts in order:
+--    01_erp_a_sap_like.sql               (source: RAW_ERP_A)
+--    02_erp_b_oracle_like.sql             (source: RAW_ERP_B)
+--    03_logistics.sql                      (source: RAW_LOGISTICS)
+--    04_iot_events.sql                      (source: RAW_IOT)
+--    05_contracts_stage.sql                  (source: RAW_DOCUMENTS)
+--    06_golden_crosswalk.sql                  (answer key: RAW_DOCUMENTS)
+--    07_ontology_core.sql                      (canonical: ONTOLOGY_CORE)
+--    08_ontology_goods_module.sql               (canonical: ONTOLOGY_GOODS)
+--    09_ontology_manufacturing_extension.sql     (canonical: ONTOLOGY_MANUFACTURING)
+--    10_ontology_services_module.sql              (canonical: ONTOLOGY_SERVICES)
+--    11_ontology_relationship_graph.sql            (canonical: ONTOLOGY_GRAPH)
+--    12_mapping_registry.sql                        (governance: GOVERNANCE.MAPPING_REGISTRY)
+--    13_timezone_normalization.sql                   (governance: GOVERNANCE views)
+--    14_canonical_metrics.sql                          (semantic: SEMANTIC_LAYER facts + metric views)
+--    15_semantic_view_conversational_analytics.sql      (semantic: native Snowflake SEMANTIC VIEW)
+--    16_dependency_graph_traversal.sql                    (intelligence: TRAVERSE_GRAPH)
+--    17_impact_analysis.sql                                (intelligence: IMPACT_ANALYSIS_SHIPMENT)
+--    18_financial_impact_estimation.sql                     (intelligence: FINANCIAL_IMPACT_ESTIMATE)
+--    19_event_processing_streams_tasks.sql                   (intelligence: streams/tasks/dynamic tables)
+--    20_schema_drift_detection.sql                            (intelligence: schema snapshot/diff)
+--    21_document_extraction.sql                                (documents: Cortex contract extraction)
+--    Then deploy streamlit_app/ (see streamlit_app/DEPLOY.md).
+-- 14 depends on 07 (ONTOLOGY_CORE), 08 (ONTOLOGY_GOODS), and 13 (GOVERNANCE
+-- timezone-safe view). 15 depends on 14 (wraps its facts/metric views).
+-- 16 depends only on 11 (ONTOLOGY_GRAPH). 17 depends on 11 + 07. 18 depends
+-- on 17. 19 depends on 03/04 (RAW_LOGISTICS/RAW_IOT) + 13 (GOVERNANCE UTC
+-- views) + a running warehouse named SUPPLY_CHAIN_WH (created in this
+-- script, step 1). 20 depends on 12 (GOVERNANCE.MAPPING_REGISTRY).
+-- Scripts 01-06 must load before 07-11, since the canonical layer's source
+-- columns (ERP_A_SUPPLIER_ID etc.) are for traceability back to raw data,
+-- and the CSVs for 07-11 were themselves derived from the 01-06 data.
+-- 12 has no data dependency on 07-11 (mapping registry describes RAW_* ->
+-- canonical, it doesn't read the canonical tables) but is numbered after
+-- for narrative order. 13 depends on 03 (RAW_LOGISTICS) and 04 (RAW_IOT).
+
+-- 4. Verify row counts:
+-- SELECT 'ERP_A.SUPPLIERS' AS tbl, COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_ERP_A.SUPPLIERS
+-- UNION ALL SELECT 'ERP_A.PURCHASE_ORDER_ITEMS', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_ERP_A.PURCHASE_ORDER_ITEMS
+-- UNION ALL SELECT 'ERP_B.VENDORS', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_ERP_B.VENDORS
+-- UNION ALL SELECT 'ERP_B.PURCHASE_ORDER_LINES', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_ERP_B.PURCHASE_ORDER_LINES
+-- UNION ALL SELECT 'LOGISTICS.SHIPMENTS', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_LOGISTICS.SHIPMENTS
+-- UNION ALL SELECT 'LOGISTICS.SHIPMENT_EVENTS', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_LOGISTICS.SHIPMENT_EVENTS
+-- UNION ALL SELECT 'IOT.LOCATION_UPDATES', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_IOT.LOCATION_UPDATES
+-- UNION ALL SELECT 'DOCUMENTS.CONTRACTS_GROUND_TRUTH', COUNT(*) FROM SUPPLY_CHAIN_PLATFORM.RAW_DOCUMENTS.CONTRACTS_GROUND_TRUTH;

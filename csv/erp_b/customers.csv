@@ -1,0 +1,15 @@
+CUSTOMER_ID,CUSTOMER_NAME,COUNTRY_CODE,TIME_ZONE
+CUST-502,Meadowbrook Retailers,CH,Asia/Shanghai
+CUST-511,Silverline Auto Group,GE,Europe/Berlin
+CUST-520,Trident Industrial Buyers,CH,Asia/Shanghai
+CUST-529,Coral Bay Distribution,KR,Asia/Seoul
+CUST-538,Falcon Point Manufacturing,BR,America/Sao_Paulo
+CUST-547,Union Square Wholesale,CH,Asia/Shanghai
+CUST-556,Brightstar Electronics Retail,GE,Europe/Berlin
+CUST-565,Canyon Ridge Supply Co,UK,Europe/London
+CUST-574,Metro Consumer Group,GE,Europe/Berlin
+CUST-583,Ashford Machinery Buyers,UK,Europe/London
+CUST-592,Pinehill Auto Parts,BR,America/Sao_Paulo
+CUST-601,Riverside Appliance Co,GE,Europe/Berlin
+CUST-610,Westgate Distributors,BR,America/Sao_Paulo
+CUST-619,Oakmont Industrial,US,America/New_York

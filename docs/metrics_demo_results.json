@@ -1,0 +1,41 @@
+{
+  "featured_supplier": {
+    "id": "CS-SUP-003",
+    "name": "Shenzhen Circuit Solutions",
+    "country": "UK"
+  },
+  "otd": {
+    "eligible_shipments": 22,
+    "on_time_shipments": 19,
+    "otd_pct": 86.4
+  },
+  "persona_consistency": {
+    "planning_delivery_reliability_pct": 86.4,
+    "procurement_otd_pct": 86.4,
+    "logistics_on_time_of_eligible": "19/22",
+    "all_consistent": "True"
+  },
+  "fill_rate": {
+    "total_ordered": 83553.0,
+    "total_delivered": 31684.0,
+    "fill_rate_pct": 37.9,
+    "lines_missing_promise_date": 0
+  },
+  "days_of_inventory": {
+    "product_id": "CS-PRD-018",
+    "product_name": "Standard Chemical Coating",
+    "plant_id": "CS-PLT-001",
+    "qty_on_hand": 2814.0,
+    "avg_daily_demand": 4.88,
+    "days_of_inventory": 576.9
+  },
+  "landed_cost": {
+    "product_id": "CS-PRD-012",
+    "product_name": "Heavy-Duty Steel Bracket",
+    "avg_unit_price": 345.98,
+    "freight_pct": 0.06,
+    "duty_pct": 0.02,
+    "handling_pct": 0.02,
+    "landed_cost_estimate": 380.58
+  }
+}

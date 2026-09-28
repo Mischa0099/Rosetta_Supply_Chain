@@ -1,0 +1,27 @@
+CANONICAL_CUSTOMER_ID,CUSTOMER_NAME,COUNTRY,TIMEZONE,SOURCE_SYSTEM,ERP_A_KUNNR,ERP_B_CUSTOMER_ID
+CS-CUS-001,Northline Retail Group,GE,Europe/Berlin,ERP_A,0000200005,
+CS-CUS-002,Cascade Home Goods,GE,Europe/Berlin,ERP_A,0000200028,
+CS-CUS-003,Ironforge Machinery Co,IN,Asia/Kolkata,ERP_A,0000200051,
+CS-CUS-004,Bluepeak Electronics,UK,Europe/London,ERP_A,0000200074,
+CS-CUS-005,Harborview Distributors,BR,America/Sao_Paulo,ERP_A,0000200097,
+CS-CUS-006,Sunrise Auto Parts,GE,Europe/Berlin,ERP_A,0000200120,
+CS-CUS-007,Vertex Manufacturing,US,America/Chicago,ERP_A,0000200143,
+CS-CUS-008,Golden Gate Appliances,GE,Europe/Berlin,ERP_A,0000200166,
+CS-CUS-009,Redwood Industrial Supply,CH,Asia/Shanghai,ERP_A,0000200189,
+CS-CUS-010,Lakeshore Consumer Products,JA,Asia/Tokyo,ERP_A,0000200212,
+CS-CUS-011,Prairie Wholesale Inc,ME,America/Mexico_City,ERP_A,0000200235,
+CS-CUS-012,Summit Retail Chain,US,America/Chicago,ERP_A,0000200258,
+CS-CUS-013,Meadowbrook Retailers,CH,Asia/Shanghai,ERP_B,,CUST-502
+CS-CUS-014,Silverline Auto Group,GE,Europe/Berlin,ERP_B,,CUST-511
+CS-CUS-015,Trident Industrial Buyers,CH,Asia/Shanghai,ERP_B,,CUST-520
+CS-CUS-016,Coral Bay Distribution,KR,Asia/Seoul,ERP_B,,CUST-529
+CS-CUS-017,Falcon Point Manufacturing,BR,America/Sao_Paulo,ERP_B,,CUST-538
+CS-CUS-018,Union Square Wholesale,CH,Asia/Shanghai,ERP_B,,CUST-547
+CS-CUS-019,Brightstar Electronics Retail,GE,Europe/Berlin,ERP_B,,CUST-556
+CS-CUS-020,Canyon Ridge Supply Co,UK,Europe/London,ERP_B,,CUST-565
+CS-CUS-021,Metro Consumer Group,GE,Europe/Berlin,ERP_B,,CUST-574
+CS-CUS-022,Ashford Machinery Buyers,UK,Europe/London,ERP_B,,CUST-583
+CS-CUS-023,Pinehill Auto Parts,BR,America/Sao_Paulo,ERP_B,,CUST-592
+CS-CUS-024,Riverside Appliance Co,GE,Europe/Berlin,ERP_B,,CUST-601
+CS-CUS-025,Westgate Distributors,BR,America/Sao_Paulo,ERP_B,,CUST-610
+CS-CUS-026,Oakmont Industrial,US,America/New_York,ERP_B,,CUST-619

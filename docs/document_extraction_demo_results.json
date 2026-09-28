@@ -1,0 +1,347 @@
+{
+  "contracts_processed": 10,
+  "overall_field_accuracy": 1.0,
+  "results": [
+    {
+      "contract_id": "C101",
+      "extracted": {
+        "contract_reference": "C101",
+        "supplier_name": "Vantage Industrial Gases",
+        "effective_date_raw": "October 17, 2025",
+        "expiration_date_raw": "October 17, 2027",
+        "term_months": 24,
+        "delivery_term": "DDP",
+        "lead_time_days": 14,
+        "sla_days": 7,
+        "min_otd_pct": 95.0,
+        "currency": "INR",
+        "penalty_pct": 2.5,
+        "applicable_products": [
+          "aluminum panels",
+          "hydraulic valves"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-10-17",
+        "expiration_date": "2027-10-17"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C102",
+      "extracted": {
+        "contract_reference": "C102",
+        "supplier_name": "Nordic Precision Parts",
+        "effective_date_raw": "December 02, 2025",
+        "expiration_date_raw": "December 02, 2028",
+        "term_months": 36,
+        "delivery_term": "Ex Works",
+        "lead_time_days": 21,
+        "sla_days": 14,
+        "min_otd_pct": 90.0,
+        "currency": "USD",
+        "penalty_pct": 1.0,
+        "applicable_products": [
+          "fastener kits",
+          "aluminum panels",
+          "sensor modules"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-12-02",
+        "expiration_date": "2028-12-02"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C103",
+      "extracted": {
+        "contract_reference": "C103",
+        "supplier_name": "Meridian Steel Works",
+        "effective_date_raw": "December 22, 2025",
+        "expiration_date_raw": "December 22, 2027",
+        "term_months": 24,
+        "delivery_term": "FOB Destination",
+        "lead_time_days": 10,
+        "sla_days": 7,
+        "min_otd_pct": 90.0,
+        "currency": "INR",
+        "penalty_pct": 1.0,
+        "applicable_products": [
+          "aluminum panels",
+          "plastic housings"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-12-22",
+        "expiration_date": "2027-12-22"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C104",
+      "extracted": {
+        "contract_reference": "C104",
+        "supplier_name": "BlueRiver Chemicals",
+        "effective_date_raw": "June 20, 2025",
+        "expiration_date_raw": "June 20, 2027",
+        "term_months": 24,
+        "delivery_term": "FOB Destination",
+        "lead_time_days": 14,
+        "sla_days": 7,
+        "min_otd_pct": 97.0,
+        "currency": "USD",
+        "penalty_pct": 2.0,
+        "applicable_products": [
+          "aluminum panels"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-06-20",
+        "expiration_date": "2027-06-20"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C105",
+      "extracted": {
+        "contract_reference": "C105",
+        "supplier_name": "Delta Plastics Inc",
+        "effective_date_raw": "December 23, 2024",
+        "expiration_date_raw": "December 23, 2027",
+        "term_months": 36,
+        "delivery_term": "DDP",
+        "lead_time_days": 14,
+        "sla_days": 10,
+        "min_otd_pct": 95.0,
+        "currency": "INR",
+        "penalty_pct": 1.0,
+        "applicable_products": [
+          "rubber gaskets"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2024-12-23",
+        "expiration_date": "2027-12-23"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C106",
+      "extracted": {
+        "contract_reference": "C106",
+        "supplier_name": "Shenzhen Circuit Solutions",
+        "effective_date_raw": "June 01, 2025",
+        "expiration_date_raw": "June 01, 2026",
+        "term_months": 12,
+        "delivery_term": "DDP",
+        "lead_time_days": 30,
+        "sla_days": 14,
+        "min_otd_pct": 90.0,
+        "currency": "INR",
+        "penalty_pct": 2.0,
+        "applicable_products": [
+          "circuit boards",
+          "fastener kits",
+          "wiring harnesses"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-06-01",
+        "expiration_date": "2026-06-01"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C107",
+      "extracted": {
+        "contract_reference": "C107",
+        "supplier_name": "Summit Forge & Casting",
+        "effective_date_raw": "April 12, 2025",
+        "expiration_date_raw": "April 12, 2028",
+        "term_months": 36,
+        "delivery_term": "DDP",
+        "lead_time_days": 21,
+        "sla_days": 3,
+        "min_otd_pct": 92.0,
+        "currency": "INR",
+        "penalty_pct": 2.0,
+        "applicable_products": [
+          "bearing assemblies",
+          "aluminum panels"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-04-12",
+        "expiration_date": "2028-04-12"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C108",
+      "extracted": {
+        "contract_reference": "C108",
+        "supplier_name": "Everest Rubber Industries",
+        "effective_date_raw": "February 03, 2025",
+        "expiration_date_raw": "February 03, 2028",
+        "term_months": 36,
+        "delivery_term": "DAP",
+        "lead_time_days": 7,
+        "sla_days": 14,
+        "min_otd_pct": 95.0,
+        "currency": "EUR",
+        "penalty_pct": 2.0,
+        "applicable_products": [
+          "wiring harnesses",
+          "steel brackets",
+          "rubber gaskets"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-02-03",
+        "expiration_date": "2028-02-03"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C109",
+      "extracted": {
+        "contract_reference": "C109",
+        "supplier_name": "Pacific Components Ltd",
+        "effective_date_raw": "December 22, 2025",
+        "expiration_date_raw": "December 22, 2027",
+        "term_months": 24,
+        "delivery_term": "FOB Origin",
+        "lead_time_days": 21,
+        "sla_days": 3,
+        "min_otd_pct": 97.0,
+        "currency": "INR",
+        "penalty_pct": 2.5,
+        "applicable_products": [
+          "bearing assemblies",
+          "circuit boards"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-12-22",
+        "expiration_date": "2027-12-22"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    },
+    {
+      "contract_id": "C110",
+      "extracted": {
+        "contract_reference": "C110",
+        "supplier_name": "Anand Auto Components",
+        "effective_date_raw": "October 04, 2025",
+        "expiration_date_raw": "October 04, 2026",
+        "term_months": 12,
+        "delivery_term": "DDP",
+        "lead_time_days": 30,
+        "sla_days": 3,
+        "min_otd_pct": 92.0,
+        "currency": "EUR",
+        "penalty_pct": 1.0,
+        "applicable_products": [
+          "fastener kits",
+          "steel brackets"
+        ],
+        "confidence_0_to_100": 100.0,
+        "effective_date": "2025-10-04",
+        "expiration_date": "2026-10-04"
+      },
+      "correct_fields": {
+        "sla_days": true,
+        "lead_time_days": true,
+        "delivery_term": true,
+        "effective_date": true,
+        "expiration_date": true,
+        "currency": true,
+        "min_otd_pct": true,
+        "penalty_pct": true
+      },
+      "field_accuracy": 1.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+LOCATION_CODE,LOCATION_NAME,COUNTRY_CODE,TIME_ZONE
+LOC-COL,Columbus Plant,US,America/New_York
+LOC-GUA,Guadalajara Plant,ME,America/Mexico_City
+LOC-PUN,Pune Plant,IN,Asia/Kolkata
+LOC-SHE,Shenzhen Plant,CH,Asia/Shanghai
+LOC-STU,Stuttgart Plant,GE,Europe/Berlin
+LOC-SAO,Sao Paulo Plant,BR,America/Sao_Paulo

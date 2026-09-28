@@ -1,0 +1,6 @@
+CANONICAL_SERVICE_ID,SERVICE_NAME,PROVIDER_ID
+SVC-001,Preventive Maintenance,SVP-005
+SVC-002,Equipment Calibration,SVP-004
+SVC-003,IT Helpdesk Support,SVP-001
+SVC-004,On-site Security Coverage,SVP-005
+SVC-005,Logistics Process Audit,SVP-005

@@ -1,0 +1,65 @@
+master_key,entity_type,real_name,erp_a_id,erp_b_id,present_in
+MS-SUP-001,Supplier,Everest Rubber Industries,0000100213,VEND-4007,ERP_A+ERP_B
+MS-SUP-002,Supplier,Summit Forge & Casting,0000100250,VEND-4020,ERP_A+ERP_B
+MS-SUP-003,Supplier,Shenzhen Circuit Solutions,0000100287,VEND-4033,ERP_A+ERP_B
+MS-SUP-004,Supplier,Sierra Electronics Corp,0000100324,VEND-4046,ERP_A+ERP_B
+MS-SUP-005,Supplier,Rhineland Fasteners GmbH,0000100361,VEND-4059,ERP_A+ERP_B
+MS-SUP-006,Supplier,Delta Plastics Inc,0000100398,VEND-4072,ERP_A+ERP_B
+MS-SUP-007,Supplier,Highland Textile Mills,0000100435,VEND-4085,ERP_A+ERP_B
+MS-SUP-008,Supplier,Atlas Packaging Group,0000100472,VEND-4098,ERP_A+ERP_B
+MS-SUP-009,Supplier,BlueRiver Chemicals,0000100509,VEND-4111,ERP_A+ERP_B
+MS-SUP-010,Supplier,Coastal Logistics Supply,0000100546,VEND-4124,ERP_A+ERP_B
+MS-SUP-011,Supplier,Pacific Components Ltd,0000100583,VEND-4137,ERP_A+ERP_B
+MS-SUP-012,Supplier,Continental Bearings SA,0000100620,VEND-4150,ERP_A+ERP_B
+MS-SUP-013,Supplier,Nordic Precision Parts,0000100657,,ERP_A_only
+MS-SUP-014,Supplier,Orion Semiconductor,0000100694,,ERP_A_only
+MS-SUP-015,Supplier,Vantage Industrial Gases,0000100731,,ERP_A_only
+MS-SUP-016,Supplier,Kyoto Machine Tools,,VEND-4163,ERP_B_only
+MS-SUP-017,Supplier,Meridian Steel Works,,VEND-4176,ERP_B_only
+MS-SUP-018,Supplier,Anand Auto Components,,VEND-4189,ERP_B_only
+MS-PRD-025,Product,Standard Battery Pack,10000017,SKU-PAC-1003,ERP_A+ERP_B
+MS-PRD-022,Product,Heavy-Duty Motor Coil,10000108,SKU-COI-1010,ERP_A+ERP_B
+MS-PRD-010,Product,Heavy-Duty Plastic Housing,10000199,SKU-HOU-1017,ERP_A+ERP_B
+MS-PRD-011,Product,Standard Fastener Kit,10000290,SKU-KIT-1024,ERP_A+ERP_B
+MS-PRD-004,Product,Heavy-Duty Circuit Board,10000381,SKU-BOA-1031,ERP_A+ERP_B
+MS-PRD-006,Product,Heavy-Duty Rubber Gasket,10000472,SKU-GAS-1038,ERP_A+ERP_B
+MS-PRD-007,Product,Standard Bearing Assembly,10000563,SKU-ASS-1045,ERP_A+ERP_B
+MS-PRD-020,Product,Heavy-Duty Hydraulic Valve,10000654,SKU-VAL-1052,ERP_A+ERP_B
+MS-PRD-028,Product,Heavy-Duty Display Unit,10000745,SKU-UNI-1059,ERP_A+ERP_B
+MS-PRD-017,Product,Standard Aluminum Panel,10000836,SKU-PAN-1066,ERP_A+ERP_B
+MS-PRD-001,Product,Standard Steel Bracket,10000927,SKU-BRA-1073,ERP_A+ERP_B
+MS-PRD-002,Product,Heavy-Duty Steel Bracket,10001018,SKU-BRA-1080,ERP_A+ERP_B
+MS-PRD-016,Product,Heavy-Duty Sensor Module,10001109,SKU-MOD-1087,ERP_A+ERP_B
+MS-PRD-030,Product,Heavy-Duty Cooling Fan,10001200,SKU-FAN-1094,ERP_A+ERP_B
+MS-PRD-040,Product,Heavy-Duty Forged Flange,10001291,SKU-FLA-1101,ERP_A+ERP_B
+MS-PRD-024,Product,Heavy-Duty Gear Assembly,10001382,SKU-ASS-1108,ERP_A+ERP_B
+MS-PRD-012,Product,Heavy-Duty Fastener Kit,10001473,SKU-KIT-1115,ERP_A+ERP_B
+MS-PRD-031,Product,Standard Chemical Coating,10001564,SKU-COA-1122,ERP_A+ERP_B
+MS-PRD-033,Product,Standard Textile Roll,10001655,SKU-ROL-1129,ERP_A+ERP_B
+MS-PRD-019,Product,Standard Hydraulic Valve,10001746,SKU-VAL-1136,ERP_A+ERP_B
+MS-PRD-038,Product,Heavy-Duty Machined Shaft,10001837,SKU-SHA-1143,ERP_A+ERP_B
+MS-PRD-023,Product,Standard Gear Assembly,10001928,SKU-ASS-1150,ERP_A+ERP_B
+MS-PRD-037,Product,Standard Machined Shaft,10002019,SKU-SHA-1157,ERP_A+ERP_B
+MS-PRD-008,Product,Heavy-Duty Bearing Assembly,10002110,SKU-ASS-1164,ERP_A+ERP_B
+MS-PRD-027,Product,Standard Display Unit,10002201,SKU-UNI-1171,ERP_A+ERP_B
+MS-PRD-009,Product,Standard Plastic Housing,10002292,SKU-HOU-1178,ERP_A+ERP_B
+MS-PRD-036,Product,Heavy-Duty Industrial Gas Cylinder,10002383,,ERP_A_only
+MS-PRD-015,Product,Standard Sensor Module,10002474,,ERP_A_only
+MS-PRD-034,Product,Heavy-Duty Textile Roll,10002565,,ERP_A_only
+MS-PRD-029,Product,Standard Cooling Fan,10002656,,ERP_A_only
+MS-PRD-013,Product,Standard Wiring Harness,10002747,,ERP_A_only
+MS-PRD-032,Product,Heavy-Duty Chemical Coating,10002838,,ERP_A_only
+MS-PRD-035,Product,Standard Industrial Gas Cylinder,10002929,,ERP_A_only
+MS-PRD-039,Product,Standard Forged Flange,,SKU-FLA-1185,ERP_B_only
+MS-PRD-014,Product,Heavy-Duty Wiring Harness,,SKU-HAR-1192,ERP_B_only
+MS-PRD-005,Product,Standard Rubber Gasket,,SKU-GAS-1199,ERP_B_only
+MS-PRD-018,Product,Heavy-Duty Aluminum Panel,,SKU-PAN-1206,ERP_B_only
+MS-PRD-026,Product,Heavy-Duty Battery Pack,,SKU-PAC-1213,ERP_B_only
+MS-PRD-021,Product,Standard Motor Coil,,SKU-COI-1220,ERP_B_only
+MS-PRD-003,Product,Standard Circuit Board,,SKU-BOA-1227,ERP_B_only
+MS-PLT-001,Plant,Columbus Plant,PL01,LOC-COL,ERP_A+ERP_B
+MS-PLT-002,Plant,Guadalajara Plant,PL02,LOC-GUA,ERP_A+ERP_B
+MS-PLT-003,Plant,Pune Plant,PL03,LOC-PUN,ERP_A+ERP_B
+MS-PLT-004,Plant,Shenzhen Plant,PL04,LOC-SHE,ERP_A+ERP_B
+MS-PLT-005,Plant,Stuttgart Plant,PL05,LOC-STU,ERP_A+ERP_B
+MS-PLT-006,Plant,Sao Paulo Plant,PL06,LOC-SAO,ERP_A+ERP_B

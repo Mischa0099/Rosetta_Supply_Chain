@@ -1,0 +1,42 @@
+SUPPLY AGREEMENT
+
+Contract Reference: C102
+Supplier: Nordic Precision Parts
+Buyer: Adaptive Supply Chain Intelligence Corp ("Buyer")
+
+1. TERM
+This Agreement is effective as of December 02, 2025 ("Effective Date") and shall
+remain in force for a period of 36 months, expiring on
+December 02, 2028 ("Expiration Date"), unless terminated earlier in accordance
+with the provisions herein.
+
+2. SCOPE OF SUPPLY
+The Supplier agrees to manufacture and deliver the following product categories to Buyer's
+designated plants: fastener kits, aluminum panels, sensor modules.
+
+3. DELIVERY TERMS
+All shipments under this Agreement shall be delivered Ex Works. The standard
+manufacturing and shipment lead time shall not exceed 21 days from the date of
+Buyer's purchase order confirmation.
+
+4. SERVICE LEVEL AGREEMENT
+Supplier shall deliver all purchase orders within 14 days of the promised delivery date
+communicated at order confirmation. Supplier shall maintain a minimum on-time delivery (OTD)
+performance of 90% measured on a rolling quarterly basis, calculated as the number of
+shipments delivered on or before the promised delivery date divided by total eligible shipments
+in the period.
+
+5. PRICING AND CURRENCY
+All prices under this Agreement are denominated in USD and are subject to review on each
+anniversary of the Effective Date.
+
+6. PENALTIES
+In the event Supplier fails to meet the SLA defined in Section 4 for any given calendar quarter,
+Buyer may assess a service credit equal to 1% of the affected purchase order value.
+
+7. GOVERNING LAW
+This Agreement shall be governed by the laws applicable to the Buyer's principal place of
+business.
+
+Signed,
+Buyer Procurement Representative                    Supplier Authorized Representative

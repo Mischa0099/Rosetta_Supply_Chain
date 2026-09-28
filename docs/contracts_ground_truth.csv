@@ -1,0 +1,11 @@
+contract_id,supplier_real_name,supplier_master_key,effective_date,expiration_date,term_months,sla_days,lead_time_days,delivery_term,min_otd_pct,penalty_pct,currency,applicable_products
+C101,Vantage Industrial Gases,MS-SUP-015,2025-10-17,2027-10-17,24,7,14,DDP,95,2.5,INR,aluminum panels; hydraulic valves
+C102,Nordic Precision Parts,MS-SUP-013,2025-12-02,2028-12-02,36,14,21,Ex Works,90,1.0,USD,fastener kits; aluminum panels; sensor modules
+C103,Meridian Steel Works,MS-SUP-017,2025-12-22,2027-12-22,24,7,10,FOB Destination,90,1.0,INR,aluminum panels; plastic housings
+C104,BlueRiver Chemicals,MS-SUP-009,2025-06-20,2027-06-20,24,7,14,FOB Destination,97,2.0,USD,aluminum panels
+C105,Delta Plastics Inc,MS-SUP-006,2024-12-23,2027-12-23,36,10,14,DDP,95,1.0,INR,rubber gaskets
+C106,Shenzhen Circuit Solutions,MS-SUP-003,2025-06-01,2026-06-01,12,14,30,DDP,90,2.0,INR,circuit boards; fastener kits; wiring harnesses
+C107,Summit Forge & Casting,MS-SUP-002,2025-04-12,2028-04-12,36,3,21,DDP,92,2.0,INR,bearing assemblies; aluminum panels
+C108,Everest Rubber Industries,MS-SUP-001,2025-02-03,2028-02-03,36,14,7,DAP,95,2.0,EUR,wiring harnesses; steel brackets; rubber gaskets
+C109,Pacific Components Ltd,MS-SUP-011,2025-12-22,2027-12-22,24,3,21,FOB Origin,97,2.5,INR,bearing assemblies; circuit boards
+C110,Anand Auto Components,MS-SUP-018,2025-10-04,2026-10-04,12,3,30,DDP,92,1.0,EUR,fastener kits; steel brackets

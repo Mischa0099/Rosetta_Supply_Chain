@@ -1,0 +1,76 @@
+{
+  "shipment_id": "SHP-100001",
+  "delay_days": 4,
+  "direct_products": [
+    {
+      "CANONICAL_PRODUCT_ID": "CS-PRD-010",
+      "PRODUCT_NAME": "Standard Aluminum Panel"
+    },
+    {
+      "CANONICAL_PRODUCT_ID": "CS-PRD-011",
+      "PRODUCT_NAME": "Standard Steel Bracket"
+    },
+    {
+      "CANONICAL_PRODUCT_ID": "CS-PRD-033",
+      "PRODUCT_NAME": "Standard Industrial Gas Cylinder"
+    }
+  ],
+  "downstream_finished_goods": [
+    {
+      "CANONICAL_PRODUCT_ID": "CS-PRD-038",
+      "PRODUCT_NAME": "Heavy-Duty Battery Pack"
+    }
+  ],
+  "affected_plants": [
+    {
+      "CANONICAL_PLANT_ID": "CS-PLT-001",
+      "PLANT_NAME": "Columbus Plant"
+    }
+  ],
+  "affected_production_orders": [
+    "PRD-ORD-1003",
+    "PRD-ORD-1007",
+    "PRD-ORD-1015",
+    "PRD-ORD-1029",
+    "PRD-ORD-1030",
+    "PRD-ORD-1058"
+  ],
+  "affected_orders": [
+    "ORD-A-PO-4500000043",
+    "ORD-A-PO-4500000129",
+    "ORD-A-PO-4500000133",
+    "ORD-A-SO-6000000012",
+    "ORD-A-SO-6000000069",
+    "ORD-A-SO-6000000116",
+    "ORD-B-PO-PO-900014",
+    "ORD-B-PO-PO-900244",
+    "ORD-B-SO-SO-700156"
+  ],
+  "affected_customers": [
+    {
+      "CANONICAL_CUSTOMER_ID": "CS-CUS-001",
+      "CUSTOMER_NAME": "Northline Retail Group"
+    },
+    {
+      "CANONICAL_CUSTOMER_ID": "CS-CUS-009",
+      "CUSTOMER_NAME": "Redwood Industrial Supply"
+    },
+    {
+      "CANONICAL_CUSTOMER_ID": "CS-CUS-010",
+      "CUSTOMER_NAME": "Lakeshore Consumer Products"
+    },
+    {
+      "CANONICAL_CUSTOMER_ID": "CS-CUS-017",
+      "CUSTOMER_NAME": "Falcon Point Manufacturing"
+    }
+  ],
+  "financial_impact": {
+    "estimated_total_affected_order_value_proxy": 8646990.88,
+    "operational_impact_production_disruption": 20000,
+    "logistics_impact_expedited_shipping": 1297048.63,
+    "logistics_impact_inventory_carrying": 18952.31,
+    "logistics_impact_total": 1316000.94,
+    "customer_revenue_impact": 864699.09,
+    "estimated_total_impact": 2200700.03
+  }
+}

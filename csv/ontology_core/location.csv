@@ -1,0 +1,51 @@
+CANONICAL_LOCATION_ID,LOCATION_NAME,LOCATION_TYPE,COUNTRY,TIMEZONE,REFERENCED_ENTITY_ID
+LOC-CS-PLT-001,Columbus Plant,PLANT,US,America/New_York,CS-PLT-001
+LOC-CS-PLT-002,Guadalajara Plant,PLANT,ME,America/Mexico_City,CS-PLT-002
+LOC-CS-PLT-003,Pune Plant,PLANT,IN,Asia/Kolkata,CS-PLT-003
+LOC-CS-PLT-004,Shenzhen Plant,PLANT,CH,Asia/Shanghai,CS-PLT-004
+LOC-CS-PLT-005,Stuttgart Plant,PLANT,GE,Europe/Berlin,CS-PLT-005
+LOC-CS-PLT-006,Sao Paulo Plant,PLANT,BR,America/Sao_Paulo,CS-PLT-006
+LOC-CS-SUP-001,Everest Rubber Industries,SUPPLIER_SITE,UK,Europe/London,CS-SUP-001
+LOC-CS-SUP-002,Summit Forge & Casting,SUPPLIER_SITE,IN,Asia/Kolkata,CS-SUP-002
+LOC-CS-SUP-003,Shenzhen Circuit Solutions,SUPPLIER_SITE,UK,Europe/London,CS-SUP-003
+LOC-CS-SUP-004,Sierra Electronics Corp,SUPPLIER_SITE,ME,America/Mexico_City,CS-SUP-004
+LOC-CS-SUP-005,Rhineland Fasteners GmbH,SUPPLIER_SITE,IN,Asia/Kolkata,CS-SUP-005
+LOC-CS-SUP-006,Delta Plastics Inc,SUPPLIER_SITE,BR,America/Sao_Paulo,CS-SUP-006
+LOC-CS-SUP-007,Highland Textile Mills,SUPPLIER_SITE,KR,Asia/Seoul,CS-SUP-007
+LOC-CS-SUP-008,Atlas Packaging Group,SUPPLIER_SITE,CH,Asia/Shanghai,CS-SUP-008
+LOC-CS-SUP-009,BlueRiver Chemicals,SUPPLIER_SITE,US,America/New_York,CS-SUP-009
+LOC-CS-SUP-010,Coastal Logistics Supply,SUPPLIER_SITE,GE,Europe/Berlin,CS-SUP-010
+LOC-CS-SUP-011,Pacific Components Ltd,SUPPLIER_SITE,ME,America/Mexico_City,CS-SUP-011
+LOC-CS-SUP-012,Continental Bearings SA,SUPPLIER_SITE,JA,Asia/Tokyo,CS-SUP-012
+LOC-CS-SUP-013,Nordic Precision Parts,SUPPLIER_SITE,CH,Asia/Shanghai,CS-SUP-013
+LOC-CS-SUP-014,Orion Semiconductor,SUPPLIER_SITE,GE,Europe/Berlin,CS-SUP-014
+LOC-CS-SUP-015,Vantage Industrial Gases,SUPPLIER_SITE,IN,Asia/Kolkata,CS-SUP-015
+LOC-CS-SUP-016,Kyoto Machine Tools,SUPPLIER_SITE,JA,Asia/Tokyo,CS-SUP-016
+LOC-CS-SUP-017,Meridian Steel Works,SUPPLIER_SITE,US,America/Chicago,CS-SUP-017
+LOC-CS-SUP-018,Anand Auto Components,SUPPLIER_SITE,US,America/Chicago,CS-SUP-018
+LOC-CS-CUS-001,Northline Retail Group,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-001
+LOC-CS-CUS-002,Cascade Home Goods,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-002
+LOC-CS-CUS-003,Ironforge Machinery Co,CUSTOMER_SITE,IN,Asia/Kolkata,CS-CUS-003
+LOC-CS-CUS-004,Bluepeak Electronics,CUSTOMER_SITE,UK,Europe/London,CS-CUS-004
+LOC-CS-CUS-005,Harborview Distributors,CUSTOMER_SITE,BR,America/Sao_Paulo,CS-CUS-005
+LOC-CS-CUS-006,Sunrise Auto Parts,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-006
+LOC-CS-CUS-007,Vertex Manufacturing,CUSTOMER_SITE,US,America/Chicago,CS-CUS-007
+LOC-CS-CUS-008,Golden Gate Appliances,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-008
+LOC-CS-CUS-009,Redwood Industrial Supply,CUSTOMER_SITE,CH,Asia/Shanghai,CS-CUS-009
+LOC-CS-CUS-010,Lakeshore Consumer Products,CUSTOMER_SITE,JA,Asia/Tokyo,CS-CUS-010
+LOC-CS-CUS-011,Prairie Wholesale Inc,CUSTOMER_SITE,ME,America/Mexico_City,CS-CUS-011
+LOC-CS-CUS-012,Summit Retail Chain,CUSTOMER_SITE,US,America/Chicago,CS-CUS-012
+LOC-CS-CUS-013,Meadowbrook Retailers,CUSTOMER_SITE,CH,Asia/Shanghai,CS-CUS-013
+LOC-CS-CUS-014,Silverline Auto Group,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-014
+LOC-CS-CUS-015,Trident Industrial Buyers,CUSTOMER_SITE,CH,Asia/Shanghai,CS-CUS-015
+LOC-CS-CUS-016,Coral Bay Distribution,CUSTOMER_SITE,KR,Asia/Seoul,CS-CUS-016
+LOC-CS-CUS-017,Falcon Point Manufacturing,CUSTOMER_SITE,BR,America/Sao_Paulo,CS-CUS-017
+LOC-CS-CUS-018,Union Square Wholesale,CUSTOMER_SITE,CH,Asia/Shanghai,CS-CUS-018
+LOC-CS-CUS-019,Brightstar Electronics Retail,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-019
+LOC-CS-CUS-020,Canyon Ridge Supply Co,CUSTOMER_SITE,UK,Europe/London,CS-CUS-020
+LOC-CS-CUS-021,Metro Consumer Group,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-021
+LOC-CS-CUS-022,Ashford Machinery Buyers,CUSTOMER_SITE,UK,Europe/London,CS-CUS-022
+LOC-CS-CUS-023,Pinehill Auto Parts,CUSTOMER_SITE,BR,America/Sao_Paulo,CS-CUS-023
+LOC-CS-CUS-024,Riverside Appliance Co,CUSTOMER_SITE,GE,Europe/Berlin,CS-CUS-024
+LOC-CS-CUS-025,Westgate Distributors,CUSTOMER_SITE,BR,America/Sao_Paulo,CS-CUS-025
+LOC-CS-CUS-026,Oakmont Industrial,CUSTOMER_SITE,US,America/New_York,CS-CUS-026

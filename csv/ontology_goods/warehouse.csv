@@ -1,0 +1,7 @@
+CANONICAL_WAREHOUSE_ID,WAREHOUSE_NAME,PLANT_ID,COUNTRY
+WH-CS-PLT-001,Columbus Plant Warehouse,CS-PLT-001,US
+WH-CS-PLT-002,Guadalajara Plant Warehouse,CS-PLT-002,ME
+WH-CS-PLT-003,Pune Plant Warehouse,CS-PLT-003,IN
+WH-CS-PLT-004,Shenzhen Plant Warehouse,CS-PLT-004,CH
+WH-CS-PLT-005,Stuttgart Plant Warehouse,CS-PLT-005,GE
+WH-CS-PLT-006,Sao Paulo Plant Warehouse,CS-PLT-006,BR

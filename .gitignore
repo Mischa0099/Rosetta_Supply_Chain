@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+generators/state/
+.streamlit/secrets.toml
+*.zip
